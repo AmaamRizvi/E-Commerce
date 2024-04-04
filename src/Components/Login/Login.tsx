@@ -9,22 +9,13 @@ export default function Login() {
   const [buttonText, setButtonText] = useState('Request OTP');
   //phone number-->emailField
   const [emailField, setEmailField] = useState(true);
-  const [otpField, setOtpField] = useState(false);
-  const [passField, setPassField] = useState(false);
   const [userEmail, setUserEmail] = useState('');
-  const [generatedOTP, setGeneratedOTP] = useState('');
 
   const phoneNoInputRef = useRef<HTMLInputElement>(null);
   const passwordInputRef = useRef<HTMLInputElement>(null);
-  const otpInputRef = useRef<HTMLInputElement>(null);
   const isSmallScreen = useMediaQuery('(max-width: 768px)');
 
-  const generateRandomOTP = () => {
-    // Generate a random 4-digit OTP
-    const otp = Math.floor(1000 + Math.random() * 9000);
-    setGeneratedOTP(otp.toString());
-    return otp;
-  };
+
 //emailField replaced with phone Number but variable name not changed
 const inputField = () => {
   if (emailField) {
@@ -32,31 +23,13 @@ const inputField = () => {
 
     if ((userEmailValue?.length === 10)) {
       setEmailField(false);
-      setOtpField(true);
-      setButtonText('Validate OTP');
-      generateRandomOTP();
+      // setOtpField(true);
     } else {
       toast.error('Invalid Contact Details');
     }
-  } else if (otpField) {
-    const enteredOTP = otpInputRef.current?.value;
-
-    if (!enteredOTP || enteredOTP !== generatedOTP) {
-      toast.error('Please enter a valid OTP');
-      return;
-    }
-    setOtpField(false);
-    setPassField(true);
     setButtonText('Sign In');
-  } else if (passField) {
-    const userPassword = passwordInputRef.current?.value;
-    if (!userPassword) {
-      toast.error('Please set your password');
-      return;
-    }
     const userDetails = {
       phoneno: userEmail,
-      password: userPassword,
     };
 
     localStorage.setItem('userDetails', JSON.stringify(userDetails));
@@ -154,45 +127,6 @@ const inputField = () => {
                   <label htmlFor='floatingInput'>
                      Phone Number
                   </label>
-                </div>
-              )}
-
-              {otpField && (
-                <div className='form-floating mb-3' >
-                  <input
-                    type='number'
-                    className='form-control'
-                    id='floatingInput'
-                    autoComplete='off'
-                    ref={otpInputRef}
-                  />
-                  <label htmlFor='floatingInput'>Enter OTP</label>
-                  <label>Enter OTP</label>
-                  <div style={{
-                    display: 'flex',
-                    justifyContent: 'center',
-                    marginTop: '10px'
-                  }}
-
-                  ><span style={{
-                    fontWeight: 'bold',
-                    fontSize: 'large',
-                    letterSpacing: '10px'
-                  }}>{generatedOTP}</span></div>
-                </div>
-              )}
-
-              {passField && (
-                <div className='form-floating mb-3'>
-                  <input
-                    type='password'
-                    className='form-control'
-                    id='floatingPassword'
-                    placeholder='Password'
-                    ref={passwordInputRef}
-                    autoComplete='on'
-                  />
-                  <label htmlFor='floatingPassword'>Set Password</label>
                 </div>
               )}
               {emailField && (
