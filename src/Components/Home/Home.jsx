@@ -30,7 +30,7 @@ export default function Home() {
               className="d-block w-100 custom-img mt-4 "
               src={imageLink}
               alt={`Slide ${index + 1}`}
-              style={{ height: "600px", width: "500px" }}
+              style={{ height: "570px", width: "500px" }}
             />
           </Carousel.Item>
         ))}
