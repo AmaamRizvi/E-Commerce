@@ -5,12 +5,19 @@
 
 
 ## Preview
-![FireShot Capture 044 - Shopping cart - localhost](https://drive.google.com/file/d/1d92_UdqVvcXzD5W_CKdGtUzL4h05F3fi/view?usp=drive_link)
-![FireShot Capture 027 - Shopping cart - flipkart-e-commerce-site-react-p7xd vercel app](https://drive.google.com/file/d/1PJgvlchm6WYS1jrWLWMTeS2_ZfzG_sfS/view?usp=sharing)
-![FireShot Capture 029 - Shopping cart - flipkart-e-commerce-site-react-p7xd vercel app](https://drive.google.com/file/d/1o_55jFGyzkqAbpUHZS58RvPk-HmIhiSr/view?usp=sharing)
-![FireShot Capture 030 - Shopping cart - flipkart-e-commerce-site-react-p7xd vercel app](https://drive.google.com/file/d/1IPvd-2d3MxiERHeDfKVaKEjs8DRLirDG/view?usp=sharing)
-![FireShot Capture 032 - Shopping cart - flipkart-e-commerce-site-react-p7xd vercel app](https://drive.google.com/file/d/1p4xNj_jy3QAd-FvEt9D5eA9Jpa7NFbeE/view?usp=sharing)
-![FireShot Capture 034 - Shopping cart - flipkart-e-commerce-site-react-p7xd vercel app](https://drive.google.com/file/d/1caHcF5t-V51Ek9GdX36lJQcKJHqgntPS/view?usp=sharing)
+![WhatsApp Image 2024-04-05 at 8 11 17 PM](https://github.com/AmaamRizvi/E-Commerce/assets/128987283/fffd3925-3b4a-4440-bcf3-ae1cdf4374a9)
+
+![WhatsApp Image 2024-04-05 at 8 11 38 PM](https://github.com/AmaamRizvi/E-Commerce/assets/128987283/cad89142-103a-4cd5-bc43-42fdbe066a5e)
+
+![WhatsApp Image 2024-04-05 at 8 11 58 PM](https://github.com/AmaamRizvi/E-Commerce/assets/128987283/be47e135-87b9-4670-8dbb-b9918500904c)
+
+![WhatsApp Image 2024-04-05 at 8 12 16 PM](https://github.com/AmaamRizvi/E-Commerce/assets/128987283/1b3127e2-fc6c-4f82-ae32-adc4332b684c)
+
+![WhatsApp Image 2024-04-05 at 8 12 33 PM](https://github.com/AmaamRizvi/E-Commerce/assets/128987283/201dca56-5e38-4795-8b58-2c7e25a6d34d)
+
+![WhatsApp Image 2024-04-05 at 8 12 50 PM](https://github.com/AmaamRizvi/E-Commerce/assets/128987283/94ba937d-7b33-4c8b-ba05-279bc91b89c8)
+
+
 
 ## Technologies Used
 - React.js: A JavaScript library for building user interfaces.
