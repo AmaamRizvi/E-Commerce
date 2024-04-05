@@ -15,8 +15,11 @@ export default function Navbar() {
   return (
     <nav className="nav-bar">
       <div className="left-nav-section">
-        <Link to="https://github.com/ViNu-23/flipkart-e-commerce-site-react">
-          <img src='https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fk-plus_3b0baa.png' className="flipkart-logo" />
+        <Link to="https://github.com/AmaamRizvi/E-Commerce">
+          <img
+            src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fk-plus_3b0baa.png"
+            className="flipkart-logo"
+          />
         </Link>
       </div>
 
@@ -41,18 +44,18 @@ export default function Navbar() {
           </Link>
         </li>
         <li className="li">
-          <Link to="/Cart" className="nav-links-rm"> <FaCartShopping className="icon-cart" />
+          <Link to="/Cart" className="nav-links-rm">
+            {" "}
+            <FaCartShopping className="icon-cart" />
             Cart
           </Link>
         </li>
-        <li className="li" >
-          <Link to="/Profile" className="nav-links-rm"> 
-          {isSmallScreen&&(
-            <>Profile</>
-          )}
-          {!isSmallScreen&&(
-            <FaCircleUser style={{height:'20px',width:'20px'}}/>
-          )}
+        <li className="li">
+          <Link to="/Profile" className="nav-links-rm">
+            {isSmallScreen && <>Profile</>}
+            {!isSmallScreen && (
+              <FaCircleUser style={{ height: "20px", width: "20px" }} />
+            )}
           </Link>
         </li>
       </ul>

@@ -8,11 +8,11 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   const imageLinks = [
-    "https://t4.ftcdn.net/jpg/05/06/36/71/360_F_506367145_aTN8tLqtKXDYxzHQs5DH4HGsbVT9OgMn.jpg",
     "https://img.freepik.com/premium-photo/colorful-sport-shoes-green_151013-4554.jpg",
     "https://t3.ftcdn.net/jpg/06/12/00/18/360_F_612001823_TkzT0xmIgagoDCyQ0yuJYEGu8j6VNVYT.jpg",
     "https://media.istockphoto.com/id/1320501530/photo/white-sneaker-on-a-blue-gradient-background-mens-fashion-sport-shoe-sneakers-lifestyle.jpg?b=1&s=612x612&w=0&k=20&c=tAWSqAFCbYz1wLQuUTYoCK13DFIoML7yd-yl_TtwWtI=",
     "https://cdn.pixabay.com/photo/2016/11/19/18/06/feet-1840619_640.jpg",
+    "https://t4.ftcdn.net/jpg/05/06/36/71/360_F_506367145_aTN8tLqtKXDYxzHQs5DH4HGsbVT9OgMn.jpg",
   ];
 
   const [viewAll, setViewAll] = useState(false);
