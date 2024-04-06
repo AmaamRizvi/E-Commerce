@@ -10,7 +10,7 @@ export default function Home() {
   const imageLinks = [
    "https://t3.ftcdn.net/jpg/06/12/00/18/360_F_612001823_TkzT0xmIgagoDCyQ0yuJYEGu8j6VNVYT.jpg",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/An_Adidas_shoe.jpg/2560px-An_Adidas_shoe.jpg",
-    "https://static1.thegamerimages.com/wordpress/wp-content/uploads/2023/11/adidas-spider-man-show-on-a-blurred-spider-man-2-background.jpg",
+    "https://www.eatingwell.com/thmb/n6aazD3Om26LEoHOMEYnRTYCgcQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/I-Walked-10000-Steps-a-Day-on-Vacation-These-Are-the-Sneakers-That-Saved-My-Feet-fa2e81dd28ff4d8a9ae3401ab5685cab.jpg",
     "https://cdn.pixabay.com/photo/2016/11/19/18/06/feet-1840619_640.jpg",
     "https://t4.ftcdn.net/jpg/05/06/36/71/360_F_506367145_aTN8tLqtKXDYxzHQs5DH4HGsbVT9OgMn.jpg",
   ];
