@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 export default function Home() {
   const imageLinks = [
    "https://t3.ftcdn.net/jpg/06/12/00/18/360_F_612001823_TkzT0xmIgagoDCyQ0yuJYEGu8j6VNVYT.jpg",
-    "https://ae01.alicdn.com/kf/S0ced2d1893204a549d831249e427a9f3D/Sneakers-Adidas-EQT-Mendukung-ADV-Hitam-Musim-Panas-untuk-Pria.jpg_Q90.jpg_.webp",
+    "https://5.imimg.com/data5/ANDROID/Default/2022/11/LW/GP/JD/134279268/product-jpeg-500x500.jpg",
     "https://mir-s3-cdn-cf.behance.net/project_modules/1400/8ee5db48601653.589c8bd9dfc40.jpg",
     "https://cdn.pixabay.com/photo/2016/11/19/18/06/feet-1840619_640.jpg",
     "https://t4.ftcdn.net/jpg/05/06/36/71/360_F_506367145_aTN8tLqtKXDYxzHQs5DH4HGsbVT9OgMn.jpg",
