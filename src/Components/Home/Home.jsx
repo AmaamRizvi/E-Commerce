@@ -10,7 +10,7 @@ export default function Home() {
   const imageLinks = [
    "https://t3.ftcdn.net/jpg/06/12/00/18/360_F_612001823_TkzT0xmIgagoDCyQ0yuJYEGu8j6VNVYT.jpg",
     "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/An_Adidas_shoe.jpg/2560px-An_Adidas_shoe.jpg",
-    "https://brand.assets.adidas.com/image/upload/03_fw23_brand_campaign_launch_plp_originals_shoes_iwp_samba_d_da9a7e2f09.jpg",
+    "https://www.soccerbible.com/media/71664/5-adidas-samba-leather.jpg",
     "https://cdn.pixabay.com/photo/2016/11/19/18/06/feet-1840619_640.jpg",
     "https://t4.ftcdn.net/jpg/05/06/36/71/360_F_506367145_aTN8tLqtKXDYxzHQs5DH4HGsbVT9OgMn.jpg",
   ];
