@@ -8,9 +8,9 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   const imageLinks = [
-    "https://t3.ftcdn.net/jpg/06/12/00/18/360_F_612001823_TkzT0xmIgagoDCyQ0yuJYEGu8j6VNVYT.jpg",
-    "https://assets.adidas.com/images/w_600,f_auto,q_auto/c23bd1066d7c4e07a35dadb200ebdde8_9366/CORE_LINEAR_STUNICON_SHOES_Blue_EY2984_01_standard.jpg",
-    "https://di2ponv0v5otw.cloudfront.net/posts/2023/07/04/64a4ff47e86380b18bef92d1/s_64a4ff497dfcc26c4216d374.jpeg,
+   "https://t3.ftcdn.net/jpg/06/12/00/18/360_F_612001823_TkzT0xmIgagoDCyQ0yuJYEGu8j6VNVYT.jpg",
+    "https://ae01.alicdn.com/kf/S0ced2d1893204a549d831249e427a9f3D/Sneakers-Adidas-EQT-Mendukung-ADV-Hitam-Musim-Panas-untuk-Pria.jpg_Q90.jpg_.webp",
+    "https://mir-s3-cdn-cf.behance.net/project_modules/1400/8ee5db48601653.589c8bd9dfc40.jpg",
     "https://cdn.pixabay.com/photo/2016/11/19/18/06/feet-1840619_640.jpg",
     "https://t4.ftcdn.net/jpg/05/06/36/71/360_F_506367145_aTN8tLqtKXDYxzHQs5DH4HGsbVT9OgMn.jpg",
   ];
