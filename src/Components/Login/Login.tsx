@@ -6,7 +6,7 @@ import { useMediaQuery } from '@react-hook/media-query';
 
 export default function Login() {
   const navigate = useNavigate();
-  const [buttonText, setButtonText] = useState('Request OTP');
+  const [buttonText, setButtonText] = useState('Sign Up');
   //phone number-->emailField
   const [emailField, setEmailField] = useState(true);
   const [userEmail, setUserEmail] = useState('');
@@ -125,7 +125,7 @@ const inputField = () => {
                     onChange={(e) => setUserEmail(e.target.value)}
                   />
                   <label htmlFor='floatingInput'>
-                     Phone Number
+                     Enter 1234567890
                   </label>
                 </div>
               )}
@@ -161,9 +161,7 @@ const inputField = () => {
                 {emailField&&(
                 <span style={{fontSize:'small',textAlign:'center'}}>Already have an account? <span style={{color:'#2874f0',fontWeight:'bold',cursor:'pointer'}}>Log in</span></span>
                 )}
-                
-                {/* add log-in for existing users here */}
-                
+               
               </div>
             </div>
           </form>
